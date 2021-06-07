@@ -179,7 +179,7 @@ bindsym XF86MonBrightnessUp exec brightnessctl set +5% | sed -En 's/.*\(([0-9]+)
     bindsym $mod+1 workspace 1
     bindsym $mod+2 workspace 2
     bindsym $mod+3 workspace 3
-    bindsym $mod+4 workspace 4
+    bindsym $mod+4 workspace Bracken
     bindsym $mod+5 workspace 5
     bindsym $mod+6 workspace 6
     bindsym $mod+7 workspace 7
@@ -190,7 +190,7 @@ bindsym XF86MonBrightnessUp exec brightnessctl set +5% | sed -En 's/.*\(([0-9]+)
     bindsym $mod+Shift+1 move container to workspace 1
     bindsym $mod+Shift+2 move container to workspace 2
     bindsym $mod+Shift+3 move container to workspace 3
-    bindsym $mod+Shift+4 move container to workspace 4
+    bindsym $mod+Shift+4 move container to workspace Bracken
     bindsym $mod+Shift+5 move container to workspace 5
     bindsym $mod+Shift+6 move container to workspace 6
     bindsym $mod+Shift+7 move container to workspace 7

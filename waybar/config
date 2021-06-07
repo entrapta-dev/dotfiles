@@ -3,12 +3,12 @@
 	"position": "top",
     "modules-left": ["sway/workspaces", "sway/mode"],
     "modules-center": ["clock"],
-    "modules-right": ["idle_inhibitor", "pulseaudio", "network", "backlight", "battery"],
+    "modules-right": ["idle_inhibitor", "pulseaudio", "network", "backlight", "battery", "clock"],
     "sway/workspaces": {
-        "format": "{icon}",
-        "format-icons": {
-            "default": "",
-            "focused": ""
+        "format": "({name})",
+        "format-names": {
+            "default": "[--{name}--]",
+            "focused": "(++{name}++)"
         }
     },
     "idle_inhibitor": {
