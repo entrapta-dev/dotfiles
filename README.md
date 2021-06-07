@@ -2,7 +2,7 @@
 dotfiles and configs for heron laptop  
 this readme is a work in progress  
 so are the dotfiles  
-honestly, I have n =o idea what I'm doing  
+honestly, I have no idea what I'm doing  
 
 ## The list
 - sway  
