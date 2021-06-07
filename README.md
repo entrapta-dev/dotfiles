@@ -16,5 +16,5 @@ honestly, I have no idea what I'm doing
 ```
 sudo ln -s ~/Sync/git/dotfiles/sway/config ~/.config/sway/config
 sudo ln -s ~/Sync/git/dotfiles/waybar/config ~/.config/waybar/config
-sudo ln -s ~/Sync/git/dotfiles/waybar/style.css /etc/xdg/waybar/style.css
+sudo ln -s ~/Sync/git/dotfiles/waybar/style.css ~/.config/waybar/style.css
 ```
