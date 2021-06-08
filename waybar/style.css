@@ -37,7 +37,7 @@ window#waybar {
 .modules-center,
 .modules-right {
 	background: #282a36;
-	border-radius: 4px;
+	border-radius: 6px;
 	margin: 0;
 	padding: 0;
 }
@@ -68,40 +68,24 @@ window#waybar {
 	padding: 0px;
 }
 
-#battery icon {
-    color: red;
-}
-#battery.charging {
-}
-#battery.critical:not(.charging) {
-  background-color: #f53c3c;
-  color: #859900;
-  animation-name: blink;
-  animation-duration: 0.8s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
+#battery.warning,
+#custom-covid.UP,
+#cpu.warning,
+#disk.1.warning,
+#memory.warning {
+	color: #ffb86c;
 }
 
-@keyframes blink {
-    to {
-        background-color: #ffffff;
-        color: black;
-    }
+#battery.critical,
+#cpu.critical,
+#disk.1.critical,
+#memory.critical,
+#network.disconnected,
+#pulseaudio.muted
+ {
+	color: #ff5555;
 }
 
-#battery.warning:not(.charging) {
-    color: white;
-    animation-name: blink;
-    animation-duration: 0.5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-#network.disconnected {
-	color: red;
-}
-
-#pulseaudio.muted {
+#tray {
+	padding: 5px 3px 5px 3px;
 }
