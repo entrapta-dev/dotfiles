@@ -17,9 +17,10 @@ not to mention arch (btw)
 
 ## Additional Requirements
 - [wob](https://github.com/francma/wob)  
-- grim - screenshot
+- [grim](https://github.com/emersion/grim) - screenshot
+- [grimshot](https://aur.archlinux.org/packages/grimshot/) (AUR) - screenshot
 - feh - image viewer
-- --mako-- notifications
+- [mako](https://github.com/emersion/mako) - notifications
 - --blueman-- bluetooth manager
 - ...
 
