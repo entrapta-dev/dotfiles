@@ -13,7 +13,7 @@ set $term alacritty
 # Your preferred application launcher
 # Note: it's recommended that you pass the final command to sway
 set $uifont "monospace"
-set $highlight #ff79c6
+set $highlight #bd93f9
 set $prompt #50fa7b
 #set $menu dmenu_path | dmenu | xargs swaymsg exec --
 set $menu wofi | xargs swaymsg exec --
