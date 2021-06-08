@@ -12,7 +12,7 @@ window#waybar {
 
 #window {
     font-weight: bold;
-    font-family: "OverpassMono";
+    font-family: "monospace";
 }
 
 #workspaces button {
@@ -32,9 +32,12 @@ window#waybar {
 }
 
 #clock, #battery, #cpu, #memory, #network, #pulseaudio, #tray, #mode {
-    padding: 5 14px;
+    padding: 2px 8px;
     margin: 0 2px;
     font-weight: bold;
+    background: rgba(150,50,150,0.2);
+    border: 1px solid #aaa;
+    border-radius: 5px;
 }
 
 #battery {
