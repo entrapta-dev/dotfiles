@@ -36,8 +36,8 @@
     "idle_inhibitor": {
       "format": "{icon}",
       "format-icons": {
-        "activated": "<span font='Font Awesome 5 Free 9'></span>",
-        "deactivated": "<span font='Font Awesome 5 Free 9'></span>"
+        "activated": "",
+        "deactivated": ""
       }
   },
 	"pulseaudio": {
