@@ -1,8 +1,9 @@
 * {
     border: none;
     border-radius: 0;
-    font-family: "monospace", "Font Awesome 5 Free";
-    font-size: 14px;
+    font-family: "monospace";
+    font-size: 12px;
+    font-weight: bold;
 }
 
 window#waybar {
