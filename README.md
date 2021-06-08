@@ -29,4 +29,6 @@ not to mention arch (btw)
 sudo ln -s ~/Sync/git/dotfiles/sway/config ~/.config/sway/config
 sudo ln -s ~/Sync/git/dotfiles/waybar/config ~/.config/waybar/config
 sudo ln -s ~/Sync/git/dotfiles/waybar/style.css ~/.config/waybar/style.css
+sudo ln -s ~/Sync/git/dotfiles/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
+sudo ln -s ~/Sync/git/dotfiles/alacritty/dracula.yml ~/.config/alacritty/dracula.yml
 ```
