@@ -25,7 +25,13 @@
 
   // Module Config
   "sway/workspaces": {
-    "format": "{index}:{name}"
+    "disable-scroll": true,
+    "format": "{index}:{name}",
+      "format-icons": {
+        "urgent": "",
+        "focused": "",
+        "default": ""
+		}
   },
     "idle_inhibitor": {
       "format": "{icon}",
