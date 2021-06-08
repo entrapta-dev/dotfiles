@@ -8,7 +8,7 @@
 
 window#waybar {
     background: none;
-    color: white;
+    color: #f8f8f2;
     margin: 0;
 }
 
@@ -20,13 +20,13 @@ window#waybar {
 #workspaces button {
     padding: 5 5px;
     background: transparent;
-    color: #fdf6e3;
+    color: #f8f8f2;
 }
 #workspaces button.focused {
-    color: #268bd2;
+    color: #bd93f9;
 }
 #workspaces button.urgent {
-  background-color: #eb4d4b;
+  background-color: #f1fa8c;
 }
 
 #mode {
