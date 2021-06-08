@@ -81,5 +81,15 @@
   },
   "clock": {
     "format": "{:%a %d %b %H:%M}"
-  }
+  },
+  "disk#1": {
+		"states": {
+			"good": 0,
+			"warning": 70,
+			"critical": 95
+		},
+		"interval": 5,
+		"format": " {percentage_used:2}%",
+		"path": "/"
+	},
 }
