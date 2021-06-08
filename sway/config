@@ -135,17 +135,12 @@ bindsym $mod+d exec wofi --show=drun | xargs swaymsg exec --
 #    bindsym $mod+f8 exec pkill kmousetool || kmousetool
     bindsym $mod+shift+f4 exec firefox --private-window
 
-### Screenshot
+### Screenshots
 
-## Screenshot // Screenshot active display // <Print> ##
-bindsym --locked Print exec /usr/share/sway/scripts/grimshot --notify save output - | swappy -f -
-
-## Screenshot // Screenshot current window // <><Print> ##
-bindsym $mod+Print exec /usr/share/sway/scripts/grimshot --notify save active - | swappy -f -
-
-## Screenshot // Screenshot selected region // <><Shift><Print> ##
-bindsym $mod+Shift+Print exec /usr/share/sway/scripts/grimshot --notify save area - | swappy -f -
-
+#bindsym $mod+Shift+Print exec /usr/share/sway/scripts/grimshot --notify save area - | swappy -f -
+bindsym print exec grimshot --notify save screen
+bindsym $mod+print exec grimshot --notify save active
+bindsym $mod+shift+print exec grimshot --notify save area
 
 # Multimedia keys
     # Pulse Audio controls
