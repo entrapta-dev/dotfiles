@@ -6,8 +6,11 @@
   // Modules
   "modules-left": [
     "clock",
+    "custom/separator",
     "disk#1",
+    "custom/separator",
     "cpu",
+    "custom/separator",
     "memory",
   ],
   "modules-center": [
@@ -16,10 +19,15 @@
   ],
   "modules-right": [
     "idle_inhibitor",
-    "backlilght",
+    "custom/separator",
+    "backlight",
+    "custom/separator",
     "pulseaudio",
+    "custom/separator",
     "network",
+    "custom/separator",
     "tray",
+    "custom/separator",
     "battery",
   ],
 
