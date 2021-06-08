@@ -17,6 +17,10 @@ not to mention arch (btw)
 
 ## Additional Requirements
 - [wob](https://github.com/francma/wob)  
+- grim - screenshot
+- feh - image viewer
+- --mako-- notifications
+- --blueman-- bluetooth manager
 - ...
 
 ## symlinks
