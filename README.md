@@ -14,7 +14,7 @@ not to mention arch (btw)
 - swaybar  
 
 ## requirements
-- wob  
+- [wob](https://github.com/francma/wob)  
 - ...
 
 ## symlinks
