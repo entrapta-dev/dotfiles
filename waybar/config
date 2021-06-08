@@ -1,41 +1,77 @@
 {
-    "layer": "top",
+  // Basics
+  "layer": "top",
 	"position": "top",
-    "modules-left": ["sway/workspaces", "sway/mode"],
-    "modules-center": ["clock"],
-    "modules-right": ["idle_inhibitor", "pulseaudio", "network", "backlight", "battery", "clock"],
-    "sway/workspaces": {
-        "format": "({name})",
-        "format-names": {
-            "default": "[--{name}--]",
-            "focused": "(++{name}++)"
-        }
-    },
+
+  // Modules
+  "modules-left": [
+    "sway/workspaces",
+    "sway/mode"
+  ],
+  "modules-center": [
+    "clock"
+  ],
+  "modules-right": [
+    "idle_inhibitor",
+    "pulseaudio",
+    "network",
+    "backlight",
+    "battery",
+    "cpu",
+    "memory",
+    "tray",
+    "clock"
+  ],
+
+  // Module Config
+  "sway/workspaces": {
+    "format": "{index}:{name}"
+  },
     "idle_inhibitor": {
-        "format": "{icon}",
-        "format-icons": {
-            "deactivated": " ",
-            "activated": " "
-        }
-    },
+      "format": "{icon}",
+      "format-icons": {
+        "activated": "<span font='Font Awesome 5 Free 9'></span>",
+        "deactivated": "<span font='Font Awesome 5 Free 9'></span>"
+      }
+  },
 	"pulseaudio": {
-        "format": "{volume}%",
+    "format": "{icon} {volume}% {format source}",
+    "format-bluetooth": "{icon} {volume}% {format_source}",
+    "format-bluetooth-muted": " {format_source}",
+    "format-muted": " {format_source}",
+    "format-source": " {volume}%",
+    "format-source-muted": "",
 		"on-click": "pavucontrol"
 	},
 	"network": {
 		"format-wifi": " {essid} ({signalStrength}%)",
 		"format-disconnected": "Disconnected",
-        "on-click": "nm-connection-editor"
+    "tooltip-format": "{ifname}",
+    "tooltip-format-wifi": " {essid} ({signalStrength}%)",
+    "tooltip-format-ethernet": " {ifname}",
+    "tooltip-format-disconnected": "Disconnected",
+    "on-click": "nm-connection-editor"
 	},
-    "backlight": {
-        "format": "{icon} {percent}%",
-        "format-icons": [""]
-    },
-    "battery": {
-        "format": "{icon} {capacity}%",
-        "format-icons": ["", "", "", "", ""]
-    },
-    "clock": {
-        "format": "{:%a, %d. %b  %H:%M}"
-    }
+  "cpu": {
+  	"interval": 5,
+  	"format": "CPU {usage:2}%"
+	},
+  "memory": {
+  	"interval": 5,
+  	"format": "Mem {}%"
+  },
+  "backlight": {
+    "format": "{icon} {percent}%",
+    "format-icons": [""]
+  },
+  "battery": {
+    "format": "{icon} {capacity}%",
+    "format-icons": ["", "", "", "", ""]
+  },
+  "tray": {
+    "icon-size": 20
+  },
+  "clock": {
+    "format": "{:%a, %d. %b  %H:%M}"
+  }
 }
