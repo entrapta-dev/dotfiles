@@ -9,11 +9,13 @@ not to mention arch (btw)
 ## what it currently looks like
 ![preview](./preview.png)
 
-## The list
-- sway  
-- swaybar  
+## The Setup
+- **OS:** [Arch Linux](https://archlinux.org/)
+- **Compositor:** [sway](https://github.com/swaywm/sway)  
+- **Bar:** [waybar](https://github.com/Alexays/Waybar)
+- ...
 
-## requirements
+## Additional Requirements
 - [wob](https://github.com/francma/wob)  
 - ...
 
