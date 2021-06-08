@@ -5,22 +5,22 @@
 
   // Modules
   "modules-left": [
+    "clock",
+    "battery",
+    "disk#1",
+    "cpu",
+    "memory",
+  ],
+  "modules-center": [
     "sway/workspaces",
     "sway/mode"
   ],
-  "modules-center": [
-    "clock"
-  ],
   "modules-right": [
     "idle_inhibitor",
+    "backlilght",
     "pulseaudio",
     "network",
-    "backlight",
-    "battery",
-    "cpu",
-    "memory",
     "tray",
-    "clock"
   ],
 
   // Module Config
