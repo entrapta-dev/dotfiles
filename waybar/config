@@ -73,9 +73,20 @@
 		"on-scroll-down": "brightnessctl set 5%-"
   },
   "battery": {
-    "format": "{icon} {capacity}%",
-    "format-icons": ["", "", "", "", ""]
-  },
+		"states": {
+			"good": 100,
+			"warning": 30,
+			"critical": 15
+		},
+		"format": "{icon} {capacity}%",
+		"format-icons": [
+			"",
+			"",
+			"",
+			"",
+			""
+		]
+	},
   "tray": {
     "icon-size": 20
   },
