@@ -12,10 +12,9 @@ set $mod Mod4
 set $term alacritty
 # Your preferred application launcher
 # Note: it's recommended that you pass the final command to sway
-#set $uifont "Ubuntu 14"
 set $uifont "monospace"
-set $highlight #3daee9
-set $prompt #18b218
+set $highlight #ff79c6
+set $prompt #50fa7b
 #set $menu dmenu_path | dmenu | xargs swaymsg exec --
 set $menu wofi | xargs swaymsg exec --
 set $wallpaper ~/Pictures/Wallpapers/dracula-base.png
@@ -24,8 +23,11 @@ set $lock swaylock -f -i $wallpaper -s fill
 exec dbus-update-activation-environment --systemd --all
 exec /usr/lib/xdg-desktop-portal --replace
 exec kdeconnect-indicator
-# Notifications
+
+
+### Autostart
 exec mako
+
 
 ### Output configuration
 #
@@ -41,15 +43,12 @@ output * bg ~/Pictures/Wallpapers/dracula-base.png fill
 #    output DVI-D-1 resolution 1920x1080 position 2560,0 background $wallpaper fill
 
 ### Idle configuration
-#
-# Example configuration:
-#
-# exec swayidle -w \
-#          timeout 300 'swaylock -f -c 000000' \
-#          timeout 600 'swaymsg "output * dpms off"' \
-#               resume 'swaymsg "output * dpms on"' \
-#          before-sleep 'swaylock -f -c 000000'
-#
+exec swayidle -w \
+  timeout 300 'swaylock -f -c 000000' \
+  timeout 600 'swaymsg "output * dpms off"' \
+  resume 'swaymsg "output * dpms on"' \
+  before-sleep 'swaylock -f -c 000000'
+
 # This will lock your screen after 300 seconds of inactivity, then turn off
 # your displays after another 300 seconds, and turn your screens back on when
 # resumed. It will also lock your screen before your computer goes to sleep.
