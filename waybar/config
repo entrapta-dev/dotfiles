@@ -6,7 +6,6 @@
   // Modules
   "modules-left": [
     "clock",
-    "battery",
     "disk#1",
     "cpu",
     "memory",
@@ -21,6 +20,7 @@
     "pulseaudio",
     "network",
     "tray",
+    "battery",
   ],
 
   // Module Config
