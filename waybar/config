@@ -59,12 +59,22 @@
     "on-click": "nm-connection-editor"
 	},
   "cpu": {
-  	"interval": 5,
-  	"format": "CPU {usage:2}%"
-	},
+    "states": {
+      "good": 0,
+      "warning": 70,
+      "critical": 95
+    },
+    "interval": 1,
+    "format": " {usage:2}%"
+  },
   "memory": {
-  	"interval": 5,
-  	"format": "Mem {}%"
+    "states": {
+      "good": 0,
+      "warning": 60,
+      "critical": 80
+    },
+    "interval": 5,
+    "format": " {}%"
   },
   "backlight": {
     "format": "{icon} {percent}%",
