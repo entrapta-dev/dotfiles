@@ -10,14 +10,16 @@ not to mention arch (btw)
 ![preview](./preview.png)
 
 ## The Packages
-- [Alacritty](https://github.com/alacritty/alacritty) - Terminal emulator
+- [alacritty](https://github.com/alacritty/alacritty) - Terminal emulator
 - [wob](https://github.com/francma/wob) - on screen display
 - [grim](https://github.com/emersion/grim) - Screenshots
 - [grimshot](https://aur.archlinux.org/packages/grimshot/) (AUR) - Better screenshot handling
 - feh - image viewer
 - [mako](https://github.com/emersion/mako) - notifications
-- [sway](https://github.com/swaywm/sway)  
+- pavucontrol
+- [sway](https://github.com/swaywm/sway)
 - [waybar](https://github.com/Alexays/Waybar)
+- [swaylock-effects](https://github.com/mortie/swaylock-effects) - Better lockscreen
 - wofi - dmenu replacement
 - wal - Colorscheme templates
 - ...
@@ -29,6 +31,7 @@ sudo ln -s ~/Sync/git/dotfiles/waybar/config ~/.config/waybar/config
 sudo ln -s ~/Sync/git/dotfiles/waybar/style.css ~/.config/waybar/style.css
 sudo ln -s ~/Sync/git/dotfiles/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
 sudo ln -s ~/Sync/git/dotfiles/alacritty/dracula.yml ~/.config/alacritty/dracula.yml
+sudo ln -s ~/Sync/git/dotfiles/swaylock/config ~/.config/swaylock/config
 ```
 
 ## Credits
