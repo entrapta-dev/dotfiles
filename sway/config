@@ -123,7 +123,7 @@ bindsym $mod+d exec wofi --show=drun | xargs swaymsg exec --
     for_window [app_id="lutris"] floating enable
 
 #    bindsym $mod+f12 exec shutdown now
-    bindsym $mod+l exec swaylock -f
+    bindsym $mod+l exec swaylock -f -c 282a36
     bindsym control+mod1+delete exec ksysguard
     bindsym $mod+f1 exec dolphin
 #    bindsym $mod+f2 exec cantata
