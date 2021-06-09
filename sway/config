@@ -264,11 +264,12 @@ bindsym $mod+r mode "resize"
 # Float some windows by default
 for_window [app_id="dolphin"] floating enable
 for_window [app_id="keepassxc"] floating enable
-for_window [app_id="nm-connection-editor"] floating enable
-for_window [app_id="systemmonitor"] floating enable
 for_window [app_id="ksysguard"] floating enable
+for_window [app_id="nm-connection-editor"] floating enable
 for_window [app_id="pavucontrol"] floating enable
 for_window [app_id="protonvpn"] floating enable
+for_window [app_id="syncthing-gtk"] floating enable
+for_window [app_id="systemmonitor"] floating enable
 
 
 #
