@@ -16,7 +16,6 @@ not to mention arch (btw)
 - [grimshot](https://aur.archlinux.org/packages/grimshot/) (AUR) - Better screenshot handling
 - feh - image viewer
 - [mako](https://github.com/emersion/mako) - notifications
-- --blueman-- bluetooth manager
 - [sway](https://github.com/swaywm/sway)  
 - [waybar](https://github.com/Alexays/Waybar)
 - wofi - dmenu replacement
