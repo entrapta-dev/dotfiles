@@ -44,10 +44,10 @@ output * bg ~/Pictures/Wallpapers/dracula-base.png fill
 
 ### Idle configuration
 exec swayidle -w \
-  timeout 300 'swaylock -f -c 000000' \
+  timeout 300 'swaylock' \
   timeout 600 'swaymsg "output * dpms off"' \
   resume 'swaymsg "output * dpms on"' \
-  before-sleep 'swaylock -f -c 000000'
+  before-sleep 'swaylock'
 
 # This will lock your screen after 300 seconds of inactivity, then turn off
 # your displays after another 300 seconds, and turn your screens back on when
@@ -123,7 +123,7 @@ bindsym $mod+d exec wofi --show=drun | xargs swaymsg exec --
     for_window [app_id="lutris"] floating enable
 
 #    bindsym $mod+f12 exec shutdown now
-    bindsym $mod+l exec swaylock -f -c 282a36
+    bindsym $mod+l exec swaylock
     bindsym control+mod1+delete exec ksysguard
     bindsym $mod+f1 exec dolphin
 #    bindsym $mod+f2 exec cantata
