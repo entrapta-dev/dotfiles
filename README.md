@@ -11,17 +11,18 @@ not to mention arch (btw)
 
 ## The Packages
 - [alacritty](https://github.com/alacritty/alacritty) - Terminal emulator
-- [wob](https://github.com/francma/wob) - on screen display
-- [grim](https://github.com/emersion/grim) - Screenshots
+- [font-awesome](https://archlinux.org/packages/community/any/font-awesome/) - Fancy icons
+- [grim](https://github.com/emersion/grim) - Image grabber
 - [grimshot](https://aur.archlinux.org/packages/grimshot/) (AUR) - Better screenshot handling
 - feh - image viewer
 - [mako](https://github.com/emersion/mako) - notifications
-- pavucontrol
+- pavucontrol - PulseAudio Volume Control
 - [sway](https://github.com/swaywm/sway)
-- [waybar](https://github.com/Alexays/Waybar)
 - [swaylock-effects](https://github.com/mortie/swaylock-effects) - Better lockscreen
-- wofi - dmenu replacement
-- wal - Colorscheme templates
+- [wal](https://github.com/dylanaraps/wal) (AUR) - Colorscheme templates
+- [waybar](https://github.com/Alexays/Waybar)
+- [wob](https://github.com/francma/wob) - on screen display
+- [wofi](https://hg.sr.ht/~scoopta/wofi) - dmenu replacement
 - ...
 
 ## symlinks
