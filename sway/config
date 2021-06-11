@@ -26,7 +26,6 @@ exec kdeconnect-indicator
 
 
 ### Autostart
-# Notifications
 exec mako
 
 
@@ -262,10 +261,11 @@ bindsym $mod+r mode "resize"
 
 # Float some windows by default
 for_window [app_id="keepassxc"] floating enable
-#for_window [instance="keepassxc"] floating enable
+for_window [class="KeePassXC"] floating enable
 for_window [app_id="lutris"] floating enable
 for_window [app_id="pavucontrol"] floating enable
 for_window [app_id="protonvpn"] floating enable
+for_window [class="scummvm"] floating enable
 for_window [app_id="syncthing-gtk"] floating enable
 for_window [class="Wine"] floating enable
 
