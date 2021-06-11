@@ -117,11 +117,9 @@ bindsym $mod+d exec wofi --show=drun --width="256" --allow-images | xargs swayms
     for_window [window_type="menu"] floating enable
     for_window [window_role="About"] floating enable
     for_window [class="xdg-desktop-portal-kde"] floating enable
-    for_window [class="ksysguard"] floating enable
-    for_window [class="ksysguard"] sticky enable
+#    for_window [class="ksysguard"] floating enable
+#    for_window [class="ksysguard"] sticky enable
     #for_window [app_id="mpv"] layout tabbed
-    for_window [class="Wine"] floating enable
-    for_window [app_id="lutris"] floating enable
 
 #    bindsym $mod+f12 exec shutdown now
     bindsym $mod+l exec swaylock
@@ -263,14 +261,13 @@ bindsym $mod+r mode "resize"
 
 
 # Float some windows by default
-for_window [app_id="dolphin"] floating enable
 for_window [app_id="keepassxc"] floating enable
-for_window [app_id="ksysguard"] floating enable
-for_window [app_id="nm-connection-editor"] floating enable
+#for_window [instance="keepassxc"] floating enable
+for_window [app_id="lutris"] floating enable
 for_window [app_id="pavucontrol"] floating enable
 for_window [app_id="protonvpn"] floating enable
 for_window [app_id="syncthing-gtk"] floating enable
-for_window [app_id="systemmonitor"] floating enable
+for_window [class="Wine"] floating enable
 
 
 #
