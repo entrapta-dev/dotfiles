@@ -73,9 +73,7 @@ input * {
 input 10248:257:MSFT0001:00_2808:0101_Touchpad {
   tap enabled
 }
-### wob enable
-set $WOBSOCK $XDG_RUNTIME_DIR/wob.sock
-exec mkfifo $SWAYSOCK.wob && tail -f $WOBSOCK | wob
+
 
 exec systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK
 
@@ -156,10 +154,8 @@ bindsym $mod+shift+print exec grimshot --notify save area
     bindsym --locked XF86AudioStop exec playerctl stop
 
 # Screen brightness controls
-#bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
-#bindsym XF86MonBrightnessUp exec brightnessctl set +5%
-bindsym XF86MonBrightnessDown exec brightnessctl set 5%- | sed -En 's/.*\(([0-9]+)%\).*/\1/p' > $WOBSOCK
-bindsym XF86MonBrightnessUp exec brightnessctl set +5% | sed -En 's/.*\(([0-9]+)%\).*/\1/p' > $WOBSOCK
+bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
+bindsym XF86MonBrightnessUp exec brightnessctl set +5%
 
 
 #
