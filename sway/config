@@ -27,7 +27,8 @@ exec kdeconnect-indicator
 
 ### Autostart
 exec mako
-
+exec keepassxc
+exec syncthing-gtk
 
 ### Output configuration
 #
