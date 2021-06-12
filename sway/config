@@ -70,7 +70,9 @@ exec swayidle -w \
 input * {
   xkb_numlock enabled
 }
-
+input 10248:257:MSFT0001:00_2808:0101_Touchpad {
+  tap enabled
+}
 ### wob enable
 set $WOBSOCK $XDG_RUNTIME_DIR/wob.sock
 exec mkfifo $SWAYSOCK.wob && tail -f $WOBSOCK | wob
