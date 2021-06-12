@@ -1,10 +1,6 @@
 # dotfiles
 dotfiles and configs for heron laptop  
-this readme is a work in progress  
-so are the dotfiles  
-honestly, I have no idea what I'm doing  
-this is my first time messing around with a window manager  
-not to mention arch (btw)  
+running ArchLinux (btw) with sway WM
 
 ## what it currently looks like
 ![preview](./preview.png)
