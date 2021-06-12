@@ -12,6 +12,13 @@ set $prompt #50fa7b
 set $wallpaper ~/Pictures/Wallpapers/dracula-base.png
 set $lock swaylock -f -i $wallpaper -s fill
 
+### Set theme for GTK applications
+set $gnome-schema org.gnome.desktop.interface
+exec_always {
+    #gsettings set $gnome-schema gtk-theme 'Dracula'
+}
+
+
 ### Needed for xdg-desktop-portal-kde
 exec dbus-update-activation-environment --systemd --all
 exec /usr/lib/xdg-desktop-portal --replace
@@ -246,6 +253,7 @@ bindsym $mod+r mode "resize"
 
 
 # Float some windows by default
+for_window [class="itch"] floating enable
 for_window [app_id="keepassxc"] floating enable
 for_window [class="KeePassXC"] floating enable
 for_window [app_id="lutris"] floating enable
