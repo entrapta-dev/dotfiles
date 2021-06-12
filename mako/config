@@ -1,12 +1,12 @@
-background-color=#282a36
-text-color=#44475a
-border-color=#282a36
+background-color=#44475a
+text-color=#8be9fd
+border-color=#6272a4
 
 [urgency=low]
 border-color=#282a36
 
 [urgency=normal]
-border-color=#f1fa8c
+border-color=#6272a4
 
 [urgency=high]
 border-color=#ff5555
