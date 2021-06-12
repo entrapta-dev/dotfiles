@@ -26,12 +26,16 @@ running ArchLinux (btw) with sway WM
 
 ## symlinks
 ```
-sudo ln -s ~/git/dotfiles/sway/config ~/.config/sway/config
-sudo ln -s ~/git/dotfiles/waybar/config ~/.config/waybar/config
-sudo ln -s ~/git/dotfiles/waybar/style.css ~/.config/waybar/style.css
-sudo ln -s ~/git/dotfiles/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
-sudo ln -s ~/git/dotfiles/alacritty/dracula.yml ~/.config/alacritty/dracula.yml
-sudo ln -s ~/git/dotfiles/swaylock/config ~/.config/swaylock/config
+ln -s ~/git/dotfiles/sway/config ~/.config/sway/config
+ln -s ~/git/dotfiles/waybar/config ~/.config/waybar/config
+ln -s ~/git/dotfiles/waybar/style.css ~/.config/waybar/style.css
+ln -s ~/git/dotfiles/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
+ln -s ~/git/dotfiles/alacritty/dracula.yml ~/.config/alacritty/dracula.yml
+ln -s ~/git/dotfiles/swaylock/config ~/.config/swaylock/config
+ln -s ~/git/dotfiles/neofetch/config.conf ~/.config/neofetch/config.conf
+ln -s ~/git/dotfiles/mako/config ~/.config/mako/config
+ln -s ~/git/dotfiles/cava/config ~/.config/cava/config
+ln -s ~/git/dotfiles/bashtop/user_themes/dracula.theme ~/.config/bashtop/user_themes/dracula.theme
 ```
 
 ## Credits
