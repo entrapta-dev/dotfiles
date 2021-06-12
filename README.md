@@ -8,6 +8,7 @@ running ArchLinux (btw) with sway WM
 ## The Packages
 - [alacritty](https://github.com/alacritty/alacritty) - Terminal emulator
 - brightnessctl - Monitor brightness control
+- cava ([AUR](https://aur.archlinux.org/packages/cava/)) - CLI audio visualizer
 - [font-awesome](https://archlinux.org/packages/community/any/font-awesome/) - Fancy icons
 - [grim](https://github.com/emersion/grim) - Image grabber
 - [grimshot](https://aur.archlinux.org/packages/grimshot/) (AUR) - Better screenshot handling
