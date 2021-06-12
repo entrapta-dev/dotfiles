@@ -1,24 +1,17 @@
-# Default config for sway
-#
-# Copy this to ~/.config/sway/config and edit it to your liking.
-#
-# Read `man 5 sway` for a complete reference.
-
 ### Variables
-#
 # Logo key. Use Mod1 for Alt.
 set $mod Mod4
 # Your preferred terminal emulator
 set $term alacritty
 # Your preferred application launcher
 # Note: it's recommended that you pass the final command to sway
+set $menu wofi | xargs swaymsg exec --
 set $uifont "monospace"
 set $highlight #bd93f9
 set $prompt #50fa7b
-#set $menu dmenu_path | dmenu | xargs swaymsg exec --
-set $menu wofi | xargs swaymsg exec --
 set $wallpaper ~/Pictures/Wallpapers/dracula-base.png
 set $lock swaylock -f -i $wallpaper -s fill
+
 ### Needed for xdg-desktop-portal-kde
 exec dbus-update-activation-environment --systemd --all
 exec /usr/lib/xdg-desktop-portal --replace
@@ -31,7 +24,6 @@ exec keepassxc
 exec syncthing-gtk
 
 ### Output configuration
-#
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 output * bg ~/Pictures/wallpapers/dracula-arch.png fill
 #
@@ -74,15 +66,11 @@ input 10248:257:MSFT0001:00_2808:0101_Touchpad {
   tap enabled
 }
 
-
 exec systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK
 
 
-
 ### Key bindings
-#
 # Basics:
-#
     # start a terminal
     bindsym $mod+Return exec $term
 
@@ -91,9 +79,7 @@ exec systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK
     bindsym Mod1+F4 kill
 
     # start your launcher
-#    bindsym $mod+d exec $menu
 bindsym $mod+d exec wofi --show=drun --width="256" --allow-images --image_size="24" | xargs swaymsg exec --
-    #bindcode 133 exec $menu
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
