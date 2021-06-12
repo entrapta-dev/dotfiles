@@ -17,7 +17,6 @@ not to mention arch (btw)
 - [grimshot](https://aur.archlinux.org/packages/grimshot/) (AUR) - Better screenshot handling
 - feh - image viewer
 - [mako](https://github.com/emersion/mako) - notifications
-- nerd-fonts-complete ([AUR](https://aur.archlinux.org/packages/nerd-fonts-complete/)) - more fonts
 - pavucontrol - PulseAudio Volume Control
 - playerctl - enable media controls keys
 - [sway](https://github.com/swaywm/sway)
