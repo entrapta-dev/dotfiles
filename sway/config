@@ -263,6 +263,7 @@ for_window [app_id="protonvpn"] floating enable
 for_window [class="scummvm"] floating enable
 for_window [app_id="syncthing-gtk"] floating enable
 for_window [class="Wine"] floating enable
+for_window [app_id="zenity"] floating enable
 
 
 #
