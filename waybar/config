@@ -125,7 +125,7 @@
     "icon-size": 20
   },
   "clock": {
-    "format": "{:%a %d %b %H:%M}"
+    "format": " {:%a %d %b %H:%M}"
   },
   "disk#1": {
 		"states": {
