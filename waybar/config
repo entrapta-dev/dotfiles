@@ -1,6 +1,6 @@
 {
   // Basics
-  "layer": "top",
+  "layer": "bottom",
 	"position": "top",
   "margin-top": 5,
 	"margin-right": 5,
