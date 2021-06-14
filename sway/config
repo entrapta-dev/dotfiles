@@ -16,6 +16,7 @@ set $lock swaylock -f -i $wallpaper -s fill
 set $gnome-schema org.gnome.desktop.interface
 exec_always {
     #gsettings set $gnome-schema gtk-theme 'Dracula'
+    #gsettings set $gnome-schema icon-theme 'Papirus'
 }
 
 
