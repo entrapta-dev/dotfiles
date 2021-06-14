@@ -73,6 +73,7 @@ window#waybar {
 #cpu.warning,
 #disk.1.warning,
 #memory.warning {
+  background-color: inherit;
 	color: #ffb86c;
 }
 

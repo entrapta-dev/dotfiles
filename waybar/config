@@ -86,7 +86,7 @@
     "states": {
       "good": 0,
       "warning": 70,
-      "critical": 95
+      "critical": 90
     },
     "interval": 1,
     "format": " {usage:2}%"
