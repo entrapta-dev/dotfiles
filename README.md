@@ -14,15 +14,17 @@ running ArchLinux (btw) with sway WM
 - [grimshot](https://aur.archlinux.org/packages/grimshot/) (AUR) - Better screenshot handling
 - feh - image viewer
 - [mako](https://github.com/emersion/mako) - notifications
+- [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh/) - fancy things for zfs shell
 - pavucontrol - PulseAudio Volume Control
 - playerctl - enable media controls keys
+- [powerlevel10k](https://github.com/romkatv/powerlevel10k) ([AUR](https://aur.archlinux.org/packages/zsh-theme-powerlevel10k-git/)) - theme and style for zfs shell
 - [sway](https://github.com/swaywm/sway)
 - [swaylock-effects](https://github.com/mortie/swaylock-effects) - Better lockscreen
 - [wal](https://github.com/dylanaraps/wal) (AUR) - Colorscheme templates
 - [waybar](https://github.com/Alexays/Waybar)
 - [wob](https://github.com/francma/wob) - on screen display
 - [wofi](https://hg.sr.ht/~scoopta/wofi) - dmenu replacement
-- ...
+- zsh - shell replacement
 
 ## symlinks
 ```
