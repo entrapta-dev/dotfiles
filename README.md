@@ -27,8 +27,18 @@ running ArchLinux (btw) with sway WM
 - zsh - shell replacement
 
 ## symlinks
+*(This needs a proper cleanup and an automated script at some point.)*
 ```
 ln -s ~/git/dotfiles/sway/config ~/.config/sway/config
+ln -s ~/git/dotfiles/sway/sway.d/10-general.conf ~/.config/sway/sway.d/10-general.conf
+ln -s ~/git/dotfiles/sway/sway.d/20-workspaces.conf ~/.config/sway/sway.d/20-workspaces.conf
+ln -s ~/git/dotfiles/sway/sway.d/30-output.conf ~/.config/sway/sway.d/30-output.conf
+ln -s ~/git/dotfiles/sway/sway.d/40-input.conf ~/.config/sway/sway.d/40-input.conf
+ln -s ~/git/dotfiles/sway/sway.d/50-visuals.conf ~/.config/sway/sway.d/50-visuals.conf
+ln -s ~/git/dotfiles/sway/sway.d/60-floats.conf ~/.config/sway/sway.d/60-floats.conf
+ln -s ~/git/dotfiles/sway/sway.d/70-keybinds.conf ~/.config/sway/sway.d/70-keybinds.conf
+ln -s ~/git/dotfiles/sway/sway.d/80-bar.conf ~/.config/sway/sway.d/80-bar.conf
+ln -s ~/git/dotfiles/sway/sway.d/90-autostart.conf ~/.config/sway/sway.d/90-autostart.conf
 ln -s ~/git/dotfiles/waybar/config ~/.config/waybar/config
 ln -s ~/git/dotfiles/waybar/style.css ~/.config/waybar/style.css
 ln -s ~/git/dotfiles/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
