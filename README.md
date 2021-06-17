@@ -20,7 +20,7 @@ running ArchLinux (btw) with sway WM
 - [powerlevel10k](https://github.com/romkatv/powerlevel10k) ([AUR](https://aur.archlinux.org/packages/zsh-theme-powerlevel10k-git/)) - theme and style for zfs shell
 - [sway](https://github.com/swaywm/sway)
 - [swaylock-effects](https://github.com/mortie/swaylock-effects) - Better lockscreen
-- [wal](https://github.com/dylanaraps/wal) (AUR) - Colorscheme templates
+- [wal](https://github.c    om/dylanaraps/wal) (AUR) - Colorscheme templates
 - [waybar](https://github.com/Alexays/Waybar)
 - [wob](https://github.com/francma/wob) - on screen display
 - [wofi](https://hg.sr.ht/~scoopta/wofi) - dmenu replacement
@@ -48,6 +48,7 @@ ln -s ~/git/dotfiles/neofetch/config.conf ~/.config/neofetch/config.conf
 ln -s ~/git/dotfiles/mako/config ~/.config/mako/config
 ln -s ~/git/dotfiles/cava/config ~/.config/cava/config
 ln -s ~/git/dotfiles/bashtop/user_themes/dracula.theme ~/.config/bashtop/user_themes/dracula.theme
+ln -s ~/git/dotfiles/gtk-3.0/settings.ini ~/.config/gtk-3.0/settings.ini
 ```
 
 ## Credits
