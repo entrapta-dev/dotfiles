@@ -1,6 +1,7 @@
 # dotfiles
 dotfiles and configs for heron laptop  
-running ArchLinux (btw) with sway WM
+running ArchLinux (btw) with sway WM, no DE  
+Using [Dracula Theme](https://draculatheme.com/) wherever possible for a consistent look.
 
 ## what it currently looks like
 ![preview](./preview.png)
