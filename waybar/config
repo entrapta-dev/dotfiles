@@ -52,23 +52,23 @@
       }
   },
   "pulseaudio": {
-		"format": "{icon} {volume}%  {format_source}",
+		"format": "{icon} {volume}% {format_source}",
 		"format-bluetooth": "{icon} {volume}%  {format_source}",
 		"format-bluetooth-muted": " {icon}  {format_source}",
-		"format-muted": " {format_source}",
-		"format-source": " {volume}%",
-		"format-source-muted": "",
+		"format-muted": "<span font_desc='Font Awesome 5 Free'></span> {format_source}",
+		"format-source": "<span font_desc='Font Awesome 5 Free'></span> {volume}%",
+		"format-source-muted": "<span font_desc='Font Awesome 5 Free'></span>",
 		"format-icons": {
-			"headphone": "",
+			"headphone": "<span font_desc='Font Awesome 5 Free'></span>",
 			"hands-free": "",
-			"headset": "",
+			"headset": "<span font_desc='Font Awesome 5 Free'></span>",
 			"phone": "",
 			"portable": "",
 			"car": "",
 			"default": [
-				"",
-				"",
-				""
+				"<span font_desc='Font Awesome 5 Free'></span>",
+				"<span font_desc='Font Awesome 5 Free'></span>",
+				"<span font_desc='Font Awesome 5 Free'></span>"
 			]
 		},
 		"on-click": "pavucontrol"
@@ -102,7 +102,10 @@
   },
   "backlight": {
     "format": "{icon} {percent}%",
-    "format-icons": ["", ""],
+    "format-icons": [
+      "<span font_desc='Font Awesome 5 Free'></span>",
+      "<span font_desc='Font Awesome 5 Free'></span>"
+    ],
 		"on-scroll-up": "brightnessctl set +5%",
 		"on-scroll-down": "brightnessctl set 5%-"
   },
@@ -114,11 +117,11 @@
 		},
 		"format": "{icon} {capacity}%",
 		"format-icons": [
-			"",
-			"",
-			"",
-			"",
-			""
+			"<span font_desc='Font Awesome 5 Free'></span>",
+			"<span font_desc='Font Awesome 5 Free'></span>",
+			"<span font_desc='Font Awesome 5 Free'></span>",
+			"<span font_desc='Font Awesome 5 Free'></span>",
+			"<span font_desc='Font Awesome 5 Free'></span>"
 		]
 	},
   "tray": {
