@@ -1,12 +1,1 @@
-background-color=#44475a
-text-color=#8be9fd
-border-color=#6272a4
-
-[urgency=low]
-border-color=#282a36
-
-[urgency=normal]
-border-color=#6272a4
-
-[urgency=high]
-border-color=#ff5555
+/home/entrapta/.config/mako/config
