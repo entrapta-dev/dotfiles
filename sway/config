@@ -1,3 +1,1 @@
-### Load configuration files
-include $HOME/.config/sway/sway.d/*.conf
-include /etc/sway/config.d/*
+/home/entrapta/.config/sway/config
