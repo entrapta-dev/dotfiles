@@ -28,6 +28,29 @@ Using [Dracula Theme](https://draculatheme.com/) wherever possible for a consist
 
 ## symlinks used
 *(This needs a proper cleanup and an automated script at some point.)*
+```
+ln -s ~/git/dotfiles/sway/config ~/.config/sway/config
+ln -s ~/git/dotfiles/sway/sway.d/10-general.conf ~/.config/sway/sway.d
+ln -s ~/git/dotfiles/sway/sway.d/20-autostart.conf ~/.config/sway/sway.d
+ln -s ~/git/dotfiles/sway/sway.d/30-visuals.conf ~/.config/sway/sway.d
+ln -s ~/git/dotfiles/sway/sway.d/40-output.conf ~/.config/sway/sway.d
+ln -s ~/git/dotfiles/sway/sway.d/50-input.conf ~/.config/sway/sway.d
+ln -s ~/git/dotfiles/sway/sway.d/60-workspaces.conf ~/.config/sway/sway.d
+ln -s ~/git/dotfiles/sway/sway.d/70-floats.conf ~/.config/sway/sway.d
+ln -s ~/git/dotfiles/sway/sway.d/80-keybinds.conf ~/.config/sway/sway.d
+ln -s ~/git/dotfiles/sway/sway.d/90-bar.conf ~/.config/sway/sway.d
+ln -s ~/git/dotfiles/waybar/config ~/.config/waybar/config
+ln -s ~/git/dotfiles/waybar/style.css ~/.config/waybar/style.css
+ln -s ~/git/dotfiles/wofi/style.css ~/.config/wofi/style.css
+ln -s ~/git/dotfiles/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
+ln -s ~/git/dotfiles/alacritty/dracula.yml ~/.config/alacritty/dracula.yml
+ln -s ~/git/dotfiles/swaylock/config ~/.config/swaylock/config
+ln -s ~/git/dotfiles/neofetch/config.conf ~/.config/neofetch/config.conf
+ln -s ~/git/dotfiles/mako/config ~/.config/mako/config
+ln -s ~/git/dotfiles/cava/config ~/.config/cava/config
+ln -s ~/git/dotfiles/bashtop/user_themes/dracula.theme ~/.config/bashtop/user_themes/dracula.theme
+ln -s ~/git/dotfiles/gtk-3.0/settings.ini ~/.config/gtk-3.0/settings.ini
+```
 
 ## Credits
 Many thanks to a bunch of people from whom I have gotten inspiration or taken code snippets from.  

@@ -1,1 +1,143 @@
-/home/entrapta/.config/waybar/config
+{
+  // Basics
+  "layer": "bottom",
+	"position": "top",
+  "margin-top": 5,
+	"margin-right": 5,
+	"margin-left": 5,
+
+  // Modules
+  "modules-left": [
+    "clock",
+    "custom/separator",
+    "disk#1",
+    "custom/separator",
+    "cpu",
+    "custom/separator",
+    "memory",
+  ],
+  "modules-center": [
+    "sway/workspaces",
+    "sway/mode"
+  ],
+  "modules-right": [
+    "idle_inhibitor",
+    "custom/separator",
+    "backlight",
+    "custom/separator",
+    "pulseaudio",
+    "custom/separator",
+    "network",
+    "custom/separator",
+    "tray",
+    "custom/separator",
+    "battery",
+  ],
+
+  // Module Config
+  "sway/workspaces": {
+    "disable-scroll": true,
+    "format": "{index}:{name}",
+      "format-icons": {
+        "urgent": "",
+        "focused": "",
+        "default": ""
+		}
+  },
+    "idle_inhibitor": {
+      "format": "{icon}",
+      "format-icons": {
+        "activated": "",
+        "deactivated": ""
+      }
+  },
+  "pulseaudio": {
+		"format": "{icon} {volume}% {format_source}",
+		"format-bluetooth": "{icon} {volume}%  {format_source}",
+		"format-bluetooth-muted": " {icon}  {format_source}",
+		"format-muted": "<span font_desc='Font Awesome 5 Free'></span> {format_source}",
+		"format-source": "<span font_desc='Font Awesome 5 Free'></span> {volume}%",
+		"format-source-muted": "<span font_desc='Font Awesome 5 Free'></span>",
+		"format-icons": {
+			"headphone": "<span font_desc='Font Awesome 5 Free'></span>",
+			"hands-free": "",
+			"headset": "<span font_desc='Font Awesome 5 Free'></span>",
+			"phone": "",
+			"portable": "",
+			"car": "",
+			"default": [
+				"<span font_desc='Font Awesome 5 Free'></span>",
+				"<span font_desc='Font Awesome 5 Free'></span>",
+				"<span font_desc='Font Awesome 5 Free'></span>"
+			]
+		},
+		"on-click": "pavucontrol"
+	},
+	"network": {
+		"format-wifi": " {essid} ({signalStrength}%)",
+		"format-disconnected": "Disconnected",
+    "tooltip-format": "{ifname}",
+    "tooltip-format-wifi": " {essid} ({signalStrength}%)",
+    "tooltip-format-ethernet": " {ifname}",
+    "tooltip-format-disconnected": "Disconnected",
+    "on-click": "nm-connection-editor"
+	},
+  "cpu": {
+    "states": {
+      "good": 0,
+      "warning": 70,
+      "critical": 90
+    },
+    "interval": 1,
+    "format": " {usage:2}%"
+  },
+  "memory": {
+    "states": {
+      "good": 0,
+      "warning": 60,
+      "critical": 80
+    },
+    "interval": 5,
+    "format": " {}%"
+  },
+  "backlight": {
+    "format": "{icon} {percent}%",
+    "format-icons": [
+      "<span font_desc='Font Awesome 5 Free'></span>",
+      "<span font_desc='Font Awesome 5 Free'></span>"
+    ],
+		"on-scroll-up": "brightnessctl set +5%",
+		"on-scroll-down": "brightnessctl set 5%-"
+  },
+  "battery": {
+		"states": {
+			"good": 100,
+			"warning": 30,
+			"critical": 15
+		},
+		"format": "{icon} {capacity}%",
+		"format-icons": [
+			"<span font_desc='Font Awesome 5 Free'></span>",
+			"<span font_desc='Font Awesome 5 Free'></span>",
+			"<span font_desc='Font Awesome 5 Free'></span>",
+			"<span font_desc='Font Awesome 5 Free'></span>",
+			"<span font_desc='Font Awesome 5 Free'></span>"
+		]
+	},
+  "tray": {
+    "icon-size": 20
+  },
+  "clock": {
+    "format": " {:%a %d %b %H:%M}"
+  },
+  "disk#1": {
+		"states": {
+			"good": 0,
+			"warning": 70,
+			"critical": 95
+		},
+		"interval": 5,
+		"format": " {percentage_used:2}%",
+		"path": "/"
+	},
+}
