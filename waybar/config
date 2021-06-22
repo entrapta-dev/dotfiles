@@ -32,6 +32,9 @@
     "tray",
     "custom/separator",
     "battery",
+    "custom/separator",
+    "custom/powermenu",
+    "custom/separator",
   ],
 
   // Module Config
@@ -123,6 +126,11 @@
 			"<span font_desc='Font Awesome 5 Free'></span>",
 			"<span font_desc='Font Awesome 5 Free'></span>"
 		]
+	},
+  "custom/powermenu": {
+		"format": "",
+		"on-click": "nwgbar",
+		"tooltip": false
 	},
   "tray": {
     "icon-size": 20
