@@ -15,16 +15,13 @@ Using [Dracula Theme](https://draculatheme.com/) wherever possible for a consist
 - [grimshot](https://aur.archlinux.org/packages/grimshot/) (AUR) - Better screenshot handling
 - feh - image viewer
 - [mako](https://github.com/emersion/mako) - notifications
-- [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh/) - fancy things for zfs shell
 - pavucontrol - PulseAudio Volume Control
 - playerctl - enable media controls keys
-- [powerlevel10k](https://github.com/romkatv/powerlevel10k) ([AUR](https://aur.archlinux.org/packages/zsh-theme-powerlevel10k-git/)) - theme and style for zfs shell
 - [sway](https://github.com/swaywm/sway)
 - [swaylock-effects](https://github.com/mortie/swaylock-effects) - Better lockscreen
 - [wal](https://github.com/dylanaraps/wal) (AUR) - Colorscheme templates
 - [waybar](https://github.com/Alexays/Waybar)
 - [wofi](https://hg.sr.ht/~scoopta/wofi) - dmenu replacement
-- zsh - shell replacement
 
 ## symlinks used
 *(This needs a proper cleanup and an automated script at some point.)*
