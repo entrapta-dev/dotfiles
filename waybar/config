@@ -50,8 +50,8 @@
     "idle_inhibitor": {
       "format": "{icon}",
       "format-icons": {
-        "activated": "",
-        "deactivated": ""
+        "activated": "<span font_desc='Font Awesome 5 Free'></span>",
+        "deactivated": "<span font_desc='Font Awesome 5 Free'></span>"
       }
   },
   "pulseaudio": {
@@ -77,11 +77,11 @@
 		"on-click": "pavucontrol"
 	},
 	"network": {
-		"format-wifi": " {essid} ({signalStrength}%)",
+		"format-wifi": "<span font_desc='Font Awesome 5 Free'></span> {essid} ({signalStrength}%)",
 		"format-disconnected": "Disconnected",
     "tooltip-format": "{ifname}",
-    "tooltip-format-wifi": " {essid} ({signalStrength}%)",
-    "tooltip-format-ethernet": " {ifname}",
+    "tooltip-format-wifi": "<span font_desc='Font Awesome 5 Free'></span> {essid} ({signalStrength}%)",
+    "tooltip-format-ethernet": "<span font_desc='Font Awesome 5 Free'></span> {ifname}",
     "tooltip-format-disconnected": "Disconnected",
     "on-click": "nm-connection-editor"
 	},
@@ -92,7 +92,7 @@
       "critical": 90
     },
     "interval": 1,
-    "format": " {usage:2}%"
+    "format": "<span font_desc='Font Awesome 5 Free'></span> {usage:2}%"
   },
   "memory": {
     "states": {
@@ -101,7 +101,7 @@
       "critical": 80
     },
     "interval": 5,
-    "format": " {}%"
+    "format": "<span font_desc='Font Awesome 5 Free'></span> {}%"
   },
   "backlight": {
     "format": "{icon} {percent}%",
@@ -128,7 +128,7 @@
 		]
 	},
   "custom/powermenu": {
-		"format": "",
+		"format": "<span font_desc='Font Awesome 5 Free'></span>",
 		"on-click": "nwgbar",
 		"tooltip": false
 	},
@@ -136,7 +136,7 @@
     "icon-size": 20
   },
   "clock": {
-    "format": " {:%a %d %b %H:%M}"
+    "format": "<span font_desc='Font Awesome 5 Free'></span> {:%a %d %b %H:%M}"
   },
   "disk#1": {
 		"states": {
@@ -145,7 +145,7 @@
 			"critical": 95
 		},
 		"interval": 5,
-		"format": " {percentage_used:2}%",
+		"format": "<span font_desc='Font Awesome 5 Free'></span> {percentage_used:2}%",
 		"path": "/"
 	},
 }
