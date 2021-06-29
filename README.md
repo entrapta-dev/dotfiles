@@ -18,11 +18,14 @@ Using [Dracula Theme](https://draculatheme.com/) wherever possible for a consist
 - [sway](https://github.com/swaywm/sway)
 - [waybar](https://github.com/Alexays/Waybar)
 - [wofi](https://hg.sr.ht/~scoopta/wofi) - dmenu replacement
+- [zsh](https://archlinux.org/packages/extra/x86_64/zsh/) - programmable shell
 
 ## External Packages
 - [cava](https://aur.archlinux.org/packages/cava/) *[(GitHub)](https://github.com/karlstav/cava)* - CLI audio visualizer
 - [grimshot](https://aur.archlinux.org/packages/grimshot/) - Better screenshot handling
 - [ncspot](https://aur.archlinux.org/packages/ncspot/) *[(GitHub)](https://github.com/hrkfdn/ncspot)* - Spotify CLI client
+- [oh-my-zsh] *[GitHub](https://github.com/ohmyzsh/ohmyzsh)* - zsh configuration manager
+- [powerlevel10k] *[GitHub](https://github.com/romkatv/powerlevel10k)* - zsh theme
 - [swaylock-effects](https://aur.archlinux.org/packages/swaylock-effects-git/) *[(GitHub)](https://github.com/mortie/swaylock-effects)* - Better lockscreen
 - [wal](https://aur.archlinux.org/packages/wal-git/) *[([GitHub)](https://github.com/dylanaraps/wal)* - Colorscheme templates
 
@@ -54,6 +57,7 @@ ln -s ~/git/dotfiles/swaylock/config ~/.config/swaylock/config
 ln -s ~/git/dotfiles/waybar/config ~/.config/waybar/config
 ln -s ~/git/dotfiles/waybar/style.css ~/.config/waybar/style.css
 ln -s ~/git/dotfiles/wofi/style.css ~/.config/wofi/style.css
+ln -s ~/git/dotfiles/zsh/.zshrc ~/.zshrc
 ```
 
 ## Credits
