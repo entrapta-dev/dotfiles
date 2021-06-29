@@ -87,6 +87,7 @@
 # 'mono' outputs left to right lowest to highest frequencies.
 # 'mono_option' set mono to either take input from 'left', 'right' or 'average'.
 ; channels = stereo
+channels = mono
 ; mono_option = average
 
 # Raw output target. A fifo will be created if target does not exist.
@@ -116,16 +117,16 @@
 # if supported, ncurses mode will be forced on if user defined colors are used.
 # default is to keep current terminal color
 ; background = default
- foreground = '#44475a'
+ foreground = '#bd93f9'
 
 # Gradient mode, only hex defined colors (and thereby ncurses mode) are supported,
 # background must also be defined in hex  or remain commented out. 1 = on, 0 = off.
 # You can define as many as 8 different colors. They range from bottom to top of screen
-; gradient = 1
-; gradient_count = 8
-; gradient_color_1 = '#59cc33'
-; gradient_color_2 = '#80cc33'
-; gradient_color_3 = '#a6cc33'
+gradient = 1
+gradient_count = 3
+gradient_color_1 = '#44475a'
+gradient_color_2 = '#6272a4'
+gradient_color_3 = '#bd93f9'
 ; gradient_color_4 = '#cccc33'
 ; gradient_color_5 = '#cca633'
 ; gradient_color_6 = '#cc8033'
