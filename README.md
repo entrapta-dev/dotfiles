@@ -32,6 +32,7 @@ ln -s ~/git/dotfiles/bashtop/user_themes/dracula.theme ~/.config/bashtop/user_th
 ln -s ~/git/dotfiles/cava/config ~/.config/cava/config
 ln -s ~/git/dotfiles/gtk-3.0/settings.ini ~/.config/gtk-3.0/settings.ini
 ln -s ~/git/dotfiles/mako/config ~/.config/mako/config
+ln -s ~/git/dotfiles/ncspot/config.toml ~/.config/ncspot/config.toml
 ln -s ~/git/dotfiles/neofetch/config.conf ~/.config/neofetch/config.conf
 ln -s ~/git/dotfiles/nwg-launchers/nwgbar/style.css ~/.config/nwg-launchers/nwgbar/style.css
 ln -s ~/git/dotfiles/nwg-launchers/nwgbar/bar.json ~/.config/nwg-launchers/nwgbar/bar.json
