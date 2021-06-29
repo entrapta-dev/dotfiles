@@ -6,22 +6,26 @@ Using [Dracula Theme](https://draculatheme.com/) wherever possible for a consist
 ## what it currently looks like
 ![preview](./preview.png)
 
-## The Packages
-- [alacritty](https://github.com/alacritty/alacritty) - Terminal emulator
-- brightnessctl - Monitor brightness control
-- [cava](https://aur.archlinux.org/packages/cava/) (AUR) - CLI audio visualizer
+## Official Packages
+- [alacritty](https://archlinux.org/packages/community/x86_64/alacritty/) *[(GitHub)](https://github.com/alacritty/alacritty)* - Terminal emulator
+- [brightnessctl](https://archlinux.org/packages/community/x86_64/brightnessctl/) - Monitor brightness control
 - [font-awesome](https://archlinux.org/packages/community/any/font-awesome/) - Fancy icons - [Icon Picker](https://fontawesome.com/v5.15/icons?d=gallery&p=2&m=free)
 - [grim](https://github.com/emersion/grim) - Image grabber
-- [grimshot](https://aur.archlinux.org/packages/grimshot/) (AUR) - Better screenshot handling
-- feh - image viewer
-- [mako](https://github.com/emersion/mako) - notifications
-- pavucontrol - PulseAudio Volume Control
-- playerctl - enable media controls keys
+- [feh](https://archlinux.org/packages/extra/x86_64/feh/) - image viewer
+- [mako](https://archlinux.org/packages/community/x86_64/mako/) *[(GitHub)](https://github.com/emersion/mako)* - Wayland notification daemon
+- [pavucontrol](https://archlinux.org/packages/extra/x86_64/pavucontrol/) - PulseAudio Volume Control GUI
+- [playerctl](https://archlinux.org/packages/community/x86_64/playerctl/) - enable media controls keys
 - [sway](https://github.com/swaywm/sway)
-- [swaylock-effects](https://github.com/mortie/swaylock-effects) - Better lockscreen
-- [wal](https://github.com/dylanaraps/wal) (AUR) - Colorscheme templates
 - [waybar](https://github.com/Alexays/Waybar)
 - [wofi](https://hg.sr.ht/~scoopta/wofi) - dmenu replacement
+
+## External Packages
+- [cava](https://aur.archlinux.org/packages/cava/) *[(GitHub)](https://github.com/karlstav/cava)* - CLI audio visualizer
+- [grimshot](https://aur.archlinux.org/packages/grimshot/) - Better screenshot handling
+- [ncspot](https://aur.archlinux.org/packages/ncspot/) *[(GitHub)](https://github.com/hrkfdn/ncspot)* - Spotify CLI client
+- [swaylock-effects](https://aur.archlinux.org/packages/swaylock-effects-git/) *[(GitHub)](https://github.com/mortie/swaylock-effects)* - Better lockscreen
+- [wal](https://aur.archlinux.org/packages/wal-git/) *[([GitHub)](https://github.com/dylanaraps/wal)* - Colorscheme templates
+
 
 ## symlinks used
 *(This needs a proper cleanup and an automated script at some point.)*
