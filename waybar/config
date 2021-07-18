@@ -21,6 +21,8 @@
     "sway/mode"
   ],
   "modules-right": [
+    "tray",
+    "custom/separator",
     "idle_inhibitor",
     "custom/separator",
     "backlight",
@@ -28,8 +30,6 @@
     "pulseaudio",
     "custom/separator",
     "network",
-    "custom/separator",
-    "tray",
     "custom/separator",
     "battery",
     "custom/separator",
