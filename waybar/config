@@ -92,7 +92,8 @@
       "critical": 90
     },
     "interval": 1,
-    "format": "<span font_desc='Font Awesome 5 Free'></span> {usage:2}%"
+    "format": "<span font_desc='Font Awesome 5 Free'></span> {usage:2}%",
+    "on-click": "alacritty -e htop"
   },
   "memory": {
     "states": {
@@ -101,7 +102,8 @@
       "critical": 80
     },
     "interval": 5,
-    "format": "<span font_desc='Font Awesome 5 Free'></span> {}%"
+    "format": "<span font_desc='Font Awesome 5 Free'></span> {}%",
+    "on-click": "alacritty -e htop"
   },
   "backlight": {
     "format": "{icon} {percent}%",
