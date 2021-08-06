@@ -77,11 +77,11 @@
 		"on-click": "pavucontrol"
 	},
 	"network": {
-		"format-wifi": "<span font_desc='Font Awesome 5 Free'></span> {essid} ({signalStrength}%)",
+		"format-wifi": "<span font_desc='Font Awesome 5 Free'></span> ({signalStrength}%)",
 		"format-disconnected": "Disconnected",
     "tooltip-format": "{ifname}",
-    "tooltip-format-wifi": "<span font_desc='Font Awesome 5 Free'></span> {essid} ({signalStrength}%)",
-    "tooltip-format-ethernet": "<span font_desc='Font Awesome 5 Free'></span> {ifname}",
+    "tooltip-format-wifi": " {essid} ({signalStrength}%)",
+    "tooltip-format-ethernet": " {ifname}",
     "tooltip-format-disconnected": "Disconnected",
     "on-click": "nm-connection-editor"
 	},
