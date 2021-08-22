@@ -38,7 +38,7 @@
   // Module Config
   "sway/workspaces": {
     "disable-scroll": true,
-    "format": "{index}:{name}",
+    "format": "{name}",
       "format-icons": {
         "urgent": "",
         "focused": "",
