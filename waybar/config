@@ -48,34 +48,34 @@
     "idle_inhibitor": {
       "format": "{icon}",
       "format-icons": {
-        "activated": "<span font_desc='Font Awesome 5 Free'></span>",
-        "deactivated": "<span font_desc='Font Awesome 5 Free'></span>"
+        "activated": "<span font_desc='Font Awesome 6 Free'></span>",
+        "deactivated": "<span font_desc='Font Awesome 6 Free'></span>"
       }
   },
   "pulseaudio": {
 		"format": "{icon} {volume}% {format_source}",
 		"format-bluetooth": "{icon} {volume}%  {format_source}",
 		"format-bluetooth-muted": " {icon}  {format_source}",
-		"format-muted": "<span font_desc='Font Awesome 5 Free'></span> {format_source}",
-		"format-source": "<span font_desc='Font Awesome 5 Free'></span> {volume}%",
-		"format-source-muted": "<span font_desc='Font Awesome 5 Free'></span>",
+		"format-muted": "<span font_desc='Font Awesome 6 Free'></span> {format_source}",
+		"format-source": "<span font_desc='Font Awesome 6 Free'></span> {volume}%",
+		"format-source-muted": "<span font_desc='Font Awesome 6 Free'></span>",
 		"format-icons": {
-			"headphone": "<span font_desc='Font Awesome 5 Free'></span>",
+			"headphone": "<span font_desc='Font Awesome 6 Free'></span>",
 			"hands-free": "",
-			"headset": "<span font_desc='Font Awesome 5 Free'></span>",
+			"headset": "<span font_desc='Font Awesome 6 Free'></span>",
 			"phone": "",
 			"portable": "",
 			"car": "",
 			"default": [
-				"<span font_desc='Font Awesome 5 Free'></span>",
-				"<span font_desc='Font Awesome 5 Free'></span>",
-				"<span font_desc='Font Awesome 5 Free'></span>"
+				"<span font_desc='Font Awesome 6 Free'></span>",
+				"<span font_desc='Font Awesome 6 Free'></span>",
+				"<span font_desc='Font Awesome 6 Free'></span>"
 			]
 		},
 		"on-click": "pavucontrol"
 	},
 	"network": {
-		"format-wifi": "<span font_desc='Font Awesome 5 Free'></span> ({signalStrength}%)",
+		"format-wifi": "<span font_desc='Font Awesome 6 Free'></span> ({signalStrength}%)",
 		"format-disconnected": "Disconnected",
     "tooltip-format": "{ifname}",
     "tooltip-format-wifi": " {essid} ({signalStrength}%)",
@@ -90,7 +90,7 @@
       "critical": 90
     },
     "interval": 1,
-    "format": "<span font_desc='Font Awesome 5 Free'></span> {usage:2}%",
+    "format": "<span font_desc='Font Awesome 6 Free'></span> {usage:2}%",
     "on-click": "alacritty -e htop"
   },
   "memory": {
@@ -100,14 +100,14 @@
       "critical": 80
     },
     "interval": 5,
-    "format": "<span font_desc='Font Awesome 5 Free'></span> {}%",
+    "format": "<span font_desc='Font Awesome 6 Free'></span> {}%",
     "on-click": "alacritty -e htop"
   },
   "backlight": {
     "format": "{icon} {percent}%",
     "format-icons": [
-      "<span font_desc='Font Awesome 5 Free'></span>",
-      "<span font_desc='Font Awesome 5 Free'></span>"
+      "<span font_desc='Font Awesome 6 Free'></span>",
+      "<span font_desc='Font Awesome 6 Free'></span>"
     ],
 		"on-scroll-up": "brightnessctl set +5%",
 		"on-scroll-down": "brightnessctl set 5%-"
@@ -120,15 +120,15 @@
 		},
 		"format": "{icon} {capacity}%",
 		"format-icons": [
-			"<span font_desc='Font Awesome 5 Free'></span>",
-			"<span font_desc='Font Awesome 5 Free'></span>",
-			"<span font_desc='Font Awesome 5 Free'></span>",
-			"<span font_desc='Font Awesome 5 Free'></span>",
-			"<span font_desc='Font Awesome 5 Free'></span>"
+			"<span font_desc='Font Awesome 6 Free'></span>",
+			"<span font_desc='Font Awesome 6 Free'></span>",
+			"<span font_desc='Font Awesome 6 Free'></span>",
+			"<span font_desc='Font Awesome 6 Free'></span>",
+			"<span font_desc='Font Awesome 6 Free'></span>"
 		]
 	},
   "custom/powermenu": {
-		"format": "<span font_desc='Font Awesome 5 Free'></span>",
+		"format": "<span font_desc='Font Awesome 6 Free'></span>",
 		"on-click": "nwgbar",
 		"tooltip": false
 	},
@@ -136,7 +136,7 @@
     "icon-size": 20
   },
   "clock": {
-    "format": "<span font_desc='Font Awesome 5 Free'></span> {:%a %d %b %H:%M}"
+    "format": "<span font_desc='Font Awesome 6 Free'></span> {:%a %d %b %H:%M}"
   },
   "disk#1": {
 		"states": {
@@ -145,7 +145,7 @@
 			"critical": 95
 		},
 		"interval": 5,
-		"format": "<span font_desc='Font Awesome 5 Free'></span> {percentage_used:2}%",
+		"format": "<span font_desc='Font Awesome 6 Free'></span> {percentage_used:2}%",
 		"path": "/"
 	},
 }
