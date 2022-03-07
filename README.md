@@ -37,6 +37,7 @@ ln -s ~/git/dotfiles/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
 ln -s ~/git/dotfiles/alacritty/dracula.yml ~/.config/alacritty/dracula.yml
 ln -s ~/git/dotfiles/bashtop/user_themes/dracula.theme ~/.config/bashtop/user_themes/dracula.theme
 ln -s ~/git/dotfiles/cava/config ~/.config/cava/config
+ln -s ~/git/dotfiles/foot/foot.ini ~/.config/foot/foot.ini
 ln -s ~/git/dotfiles/gtk-3.0/settings.ini ~/.config/gtk-3.0/settings.ini
 ln -s ~/git/dotfiles/mako/config ~/.config/mako/config
 ln -s ~/git/dotfiles/ncspot/config.toml ~/.config/ncspot/config.toml
