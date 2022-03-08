@@ -7,18 +7,20 @@ Using [Dracula Theme](https://draculatheme.com/) wherever possible for a consist
 ![preview](./preview.png)
 
 ## Official Packages
-- [alacritty](https://archlinux.org/packages/community/x86_64/alacritty/) *[(GitHub)](https://github.com/alacritty/alacritty)* - Terminal emulator
 - [brightnessctl](https://archlinux.org/packages/community/x86_64/brightnessctl/) - Monitor brightness control
-- [font-awesome](https://archlinux.org/packages/community/any/font-awesome/) - Fancy icons - [Icon Picker](https://fontawesome.com/v5.15/icons?d=gallery&p=2&m=free)
-- [grim](https://github.com/emersion/grim) - Image grabber
+- [btop](https://archlinux.org/packages/community/x86_64/btop/) - A monitor of system resources, bpytop ported to C++
+- [font-awesome](https://archlinux.org/packages/community/any/font-awesome/) - Fancy icons - [(Icon Picker)](https://fontawesome.com/v5.15/icons?d=gallery&p=2&m=free)
+- [foot](https://archlinux.org/packages/community/x86_64/foot/) - Fast, lightweight, and minimalistic Wayland terminal emulator
+- [grim](https://archlinux.org/packages/community/x86_64/grim/) *[(GitHub)](https://github.com/emersion/grim)* - Screenshot utility for Wayland
 - [feh](https://archlinux.org/packages/extra/x86_64/feh/) - image viewer
 - [mako](https://archlinux.org/packages/community/x86_64/mako/) *[(GitHub)](https://github.com/emersion/mako)* - Wayland notification daemon
 - [pavucontrol](https://archlinux.org/packages/extra/x86_64/pavucontrol/) - PulseAudio Volume Control GUI
 - [playerctl](https://archlinux.org/packages/community/x86_64/playerctl/) - enable media controls keys
-- [sway](https://github.com/swaywm/sway)
+- [sway](https://archlinux.org/packages/community/x86_64/sway/) *[(GitHub)](https://github.com/swaywm/sway)* - Tiling Wayland compositor and replacement for the i3 window manager
+- [swaylock](https://archlinux.org/packages/community/x86_64/swaylock/) *[(GitHub)](https://github.com/swaywm/swaylock)* - Screen locker for Wayland
 - [waybar](https://github.com/Alexays/Waybar)
-- [wofi](https://hg.sr.ht/~scoopta/wofi) - dmenu replacement
-- [zsh](https://archlinux.org/packages/extra/x86_64/zsh/) - programmable shell
+- [wofi](https://archlinux.org/packages/community/x86_64/wofi/) *[(SourceHut)](https://hg.sr.ht/~scoopta/wofi)* - launcher for wlroots-based wayland compositors
+- [zsh](https://archlinux.org/packages/extra/x86_64/zsh/) - A very advanced and programmable command interpreter (shell) for UNIX
 
 ## External Packages
 - [cava](https://aur.archlinux.org/packages/cava/) *[(GitHub)](https://github.com/karlstav/cava)* - CLI audio visualizer
@@ -26,14 +28,10 @@ Using [Dracula Theme](https://draculatheme.com/) wherever possible for a consist
 - [ncspot](https://aur.archlinux.org/packages/ncspot/) *[(GitHub)](https://github.com/hrkfdn/ncspot)* - Spotify CLI client
 - [oh-my-zsh] *[GitHub](https://github.com/ohmyzsh/ohmyzsh)* - zsh configuration manager
 - [powerlevel10k] *[GitHub](https://github.com/romkatv/powerlevel10k)* - zsh theme
-- [swaylock-effects](https://aur.archlinux.org/packages/swaylock-effects-git/) *[(GitHub)](https://github.com/mortie/swaylock-effects)* - Better lockscreen
-- [wal](https://aur.archlinux.org/packages/wal-git/) *[([GitHub)](https://github.com/dylanaraps/wal)* - Colorscheme templates
-
 
 ## symlinks used
 *(This needs a proper cleanup and an automated script at some point.)*
 ```
-ln -s ~/git/dotfiles/bashtop/user_themes/dracula.theme ~/.config/bashtop/user_themes/dracula.theme
 ln -s ~/git/dotfiles/cava/config ~/.config/cava/config
 ln -s ~/git/dotfiles/foot/foot.ini ~/.config/foot/foot.ini
 ln -s ~/git/dotfiles/gtk-3.0/settings.ini ~/.config/gtk-3.0/settings.ini
