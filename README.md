@@ -12,19 +12,19 @@ Using [Dracula Theme](https://draculatheme.com/) wherever possible for a consist
 - [font-awesome](https://archlinux.org/packages/community/any/font-awesome/) - Fancy icons - [(Icon Picker)](https://fontawesome.com/v5.15/icons?d=gallery&p=2&m=free)
 - [foot](https://archlinux.org/packages/community/x86_64/foot/) - Fast, lightweight, and minimalistic Wayland terminal emulator
 - [grim](https://archlinux.org/packages/community/x86_64/grim/) *[(GitHub)](https://github.com/emersion/grim)* - Screenshot utility for Wayland
-- [feh](https://archlinux.org/packages/extra/x86_64/feh/) - image viewer
+- [feh](https://archlinux.org/packages/extra/x86_64/feh/) - Fast and light imlib2-based image viewer
 - [mako](https://archlinux.org/packages/community/x86_64/mako/) *[(GitHub)](https://github.com/emersion/mako)* - Wayland notification daemon
 - [pavucontrol](https://archlinux.org/packages/extra/x86_64/pavucontrol/) - PulseAudio Volume Control GUI
 - [playerctl](https://archlinux.org/packages/community/x86_64/playerctl/) - enable media controls keys
 - [sway](https://archlinux.org/packages/community/x86_64/sway/) *[(GitHub)](https://github.com/swaywm/sway)* - Tiling Wayland compositor and replacement for the i3 window manager
 - [swaylock](https://archlinux.org/packages/community/x86_64/swaylock/) *[(GitHub)](https://github.com/swaywm/swaylock)* - Screen locker for Wayland
-- [waybar](https://github.com/Alexays/Waybar)
+- [waybar](https://archlinux.org/packages/community/x86_64/waybar/) *[(GitHub)](https://github.com/Alexays/Waybar)* - Highly customizable Wayland bar for Sway and Wlroots based compositors
 - [wofi](https://archlinux.org/packages/community/x86_64/wofi/) *[(SourceHut)](https://hg.sr.ht/~scoopta/wofi)* - launcher for wlroots-based wayland compositors
 - [zsh](https://archlinux.org/packages/extra/x86_64/zsh/) - A very advanced and programmable command interpreter (shell) for UNIX
 
 ## External Packages
 - [cava](https://aur.archlinux.org/packages/cava/) *[(GitHub)](https://github.com/karlstav/cava)* - CLI audio visualizer
-- [grimshot](https://aur.archlinux.org/packages/grimshot/) - Better screenshot handling
+- [grimshot](https://aur.archlinux.org/packages/grimshot/) - A helper for screenshots within sway.
 - [ncspot](https://aur.archlinux.org/packages/ncspot/) *[(GitHub)](https://github.com/hrkfdn/ncspot)* - Spotify CLI client
 - [oh-my-zsh] *[GitHub](https://github.com/ohmyzsh/ohmyzsh)* - zsh configuration manager
 - [powerlevel10k] *[GitHub](https://github.com/romkatv/powerlevel10k)* - zsh theme
