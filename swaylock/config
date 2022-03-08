@@ -1,6 +1,9 @@
+image=~/pictures/wallpapers/dracula-arch.png
+scaling=fill
 screenshots
 clock
 indicator
+indicator-idle-visible
 indicator-radius=100
 indicator-thickness=12
 effect-blur=9x7
