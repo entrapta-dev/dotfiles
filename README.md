@@ -33,8 +33,6 @@ Using [Dracula Theme](https://draculatheme.com/) wherever possible for a consist
 ## symlinks used
 *(This needs a proper cleanup and an automated script at some point.)*
 ```
-ln -s ~/git/dotfiles/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
-ln -s ~/git/dotfiles/alacritty/dracula.yml ~/.config/alacritty/dracula.yml
 ln -s ~/git/dotfiles/bashtop/user_themes/dracula.theme ~/.config/bashtop/user_themes/dracula.theme
 ln -s ~/git/dotfiles/cava/config ~/.config/cava/config
 ln -s ~/git/dotfiles/foot/foot.ini ~/.config/foot/foot.ini
