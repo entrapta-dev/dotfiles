@@ -9,7 +9,7 @@ Using [Dracula Theme](https://draculatheme.com/) wherever possible for a consist
 ## Official Packages
 - [brightnessctl](https://archlinux.org/packages/community/x86_64/brightnessctl/) - Monitor brightness control
 - [btop](https://archlinux.org/packages/community/x86_64/btop/) - A monitor of system resources, bpytop ported to C++
-- [font-awesome](https://archlinux.org/packages/community/any/font-awesome/) - Fancy icons - [(Icon Picker)](https://fontawesome.com/v5.15/icons?d=gallery&p=2&m=free)
+- [font-awesome](https://archlinux.org/packages/community/any/font-awesome/) - Fancy icons - [(Icon Picker)](https://fontawesome.com/v6/search?m=free)
 - [foot](https://archlinux.org/packages/community/x86_64/foot/) - Fast, lightweight, and minimalistic Wayland terminal emulator
 - [grim](https://archlinux.org/packages/community/x86_64/grim/) *[(GitHub)](https://github.com/emersion/grim)* - Screenshot utility for Wayland
 - [feh](https://archlinux.org/packages/extra/x86_64/feh/) - Fast and light imlib2-based image viewer
