@@ -28,6 +28,7 @@
     "pulseaudio",
     "custom/separator",
     "network",
+    "custom/vpn",
     "custom/separator",
     "battery",
     "custom/separator",
@@ -75,16 +76,22 @@
 		"on-click": "pavucontrol"
 	},
   "network": {
-		"format-wifi": "<span font_desc='Font Awesome 6 Free'></span> {ifname} ({signalStrength}%)",
-    "format-ethernet": " {ifname}",
+		"format-wifi": "<span font_desc='Font Awesome 6 Free'></span> {essid} ({signalStrength}%)",
+    "format-ethernet": " {ifname} {ipaddr}",
 		"format-disconnected": "Disconnected",
-    "interval": 60,
     "tooltip-format": "{ifname}",
-    "tooltip-format-wifi": " {essid} ({signalStrength}%) {ifname}",
-    "tooltip-format-ethernet": " {ipaddr}",
+    "tooltip-format-wifi": "{ipaddr}",
+    "tooltip-format-ethernet": "{ipaddr}",
     "tooltip-format-disconnected": "Disconnected",
-    "on-click": "nm-connection-editor"
+    "interval": 60
 	},
+  "custom/vpn": {
+    "format": " {icon}",
+    "exec": "$HOME/.config/waybar/modules/vpn.sh",
+    "return-type": "json",
+    "interval": 5,
+    "format-icons": [" ",""]
+  },
   "cpu": {
     "states": {
       "good": 0,

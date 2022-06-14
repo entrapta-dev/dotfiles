@@ -53,6 +53,7 @@ ln -s ~/git/dotfiles/sway/sway.d/90-bar.conf ~/.config/sway/sway.d
 ln -s ~/git/dotfiles/swaylock/config ~/.config/swaylock/config
 ln -s ~/git/dotfiles/waybar/config ~/.config/waybar/config
 ln -s ~/git/dotfiles/waybar/style.css ~/.config/waybar/style.css
+ln -s ~/git/dotfiles/waybar/modules/vpn.sh ~/.config/waybar/modules/vpn.sh
 ln -s ~/git/dotfiles/wofi/style.css ~/.config/wofi/style.css
 ln -s ~/git/dotfiles/zsh/.zshrc ~/.zshrc
 ```

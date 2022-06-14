@@ -61,11 +61,10 @@ window#waybar {
 	padding: 2px 10px 0 10px;
 }
 
-#network.wifi {
-  color: #ff6600;
+#custom-vpn.disconnected {
+  color: #cc0000;
 }
-
-#network.ethernet {
+#custom-vpn.connected {
   color: #00ff00;
 }
 
