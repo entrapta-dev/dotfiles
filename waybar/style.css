@@ -61,6 +61,14 @@ window#waybar {
 	padding: 2px 10px 0 10px;
 }
 
+#network.wifi {
+  color: #ff6600;
+}
+
+#network.ethernet {
+  color: #00ff00;
+}
+
 #custom-separator {
 	opacity: 0;
 	padding: 0;

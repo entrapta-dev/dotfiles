@@ -74,12 +74,14 @@
 		},
 		"on-click": "pavucontrol"
 	},
-	"network": {
-		"format-wifi": "<span font_desc='Font Awesome 6 Free'></span> ({signalStrength}%)",
+  "network": {
+		"format-wifi": "<span font_desc='Font Awesome 6 Free'></span> {ifname} ({signalStrength}%)",
+    "format-ethernet": " {ifname}",
 		"format-disconnected": "Disconnected",
+    "interval": 60,
     "tooltip-format": "{ifname}",
-    "tooltip-format-wifi": " {essid} ({signalStrength}%)",
-    "tooltip-format-ethernet": " {ifname}",
+    "tooltip-format-wifi": " {essid} ({signalStrength}%) {ifname}",
+    "tooltip-format-ethernet": " {ipaddr}",
     "tooltip-format-disconnected": "Disconnected",
     "on-click": "nm-connection-editor"
 	},
