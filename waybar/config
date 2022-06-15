@@ -100,7 +100,7 @@
     },
     "interval": 1,
     "format": "<span font_desc='Font Awesome 6 Free'></span> {usage:2}%",
-    "on-click": "foot -e htop"
+    "on-click": "foot -e btop"
   },
   "memory": {
     "states": {
@@ -110,7 +110,7 @@
     },
     "interval": 5,
     "format": "<span font_desc='Font Awesome 6 Free'></span> {}%",
-    "on-click": "foot -e htop"
+    "on-click": "foot -e btop"
   },
   "backlight": {
     "format": "{icon} {percent}%",
